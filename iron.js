@@ -5,9 +5,9 @@ class iron{
          density:30,
          friction:3
         }
-       this.body=Bodies.rectangle(x,y,width,height,options);
-       this.width=width;
-       this.height=height;
+       this.body=Bodies.rectangle(x,y,50,50,options);
+       this.width=50;
+       this.height=50;
        World.add(world,this.body);
     }
     display(){
@@ -17,10 +17,11 @@ class iron{
      push();
      translate(p.x,p.y);
      rotate(angle);
-     strokeWeight(3);
-     stroke('white');
+    // strokeWeight(3);
+    // stroke('white');
+        rectMode(CENTER);
      fill('red');
-    rect(p.x,p.y,this.width,this.height);
+    rect(0,0,this.width,this.height);
      pop();
     }
 }
