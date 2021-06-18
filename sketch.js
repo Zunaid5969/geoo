@@ -13,9 +13,9 @@ function setup(){
 
     plane= new Plane(600,height,1200,20)
     hammerobj= new Hammer(10,100);
-    ironobj= new iron(600,360,50,90)
-    stoneobj= new stone(300,200,80,80)
-    rubberobj= new rubber(600,100,20,20)
+    ironobj= new iron(600,560,50,90)
+    stoneobj= new stone(300,560,80,80)
+    rubberobj= new rubber(100,560,70)
 }
 
 function draw(){
