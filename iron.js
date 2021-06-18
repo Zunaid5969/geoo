@@ -21,7 +21,7 @@ class iron{
     stroke("white");
         rectMode(CENTER);
      fill("red");
-    rect(0,0,this.width,this.height);
+    rect(p.x,p.y,this.width,this.height);
      pop();
     }
 }
