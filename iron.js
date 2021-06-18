@@ -16,7 +16,7 @@ class iron{
 
      push();
      translate(p.x,p.y);
-     //rotate(angle);
+     rotate(angle);
      strokeWeight(3);
      stroke('white');
      fill('red');
