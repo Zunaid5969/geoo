@@ -12,13 +12,13 @@ class iron{
     }
     display(){
      var p=this.body.position;
-     var ang=this.body.angle;
+    // var ang=this.body.angle;
 
      push();
      translate(p.x,p.y);
      rotate(angle);
      strokeWeight(3);
-    stroke("white");
+   // stroke("white");
         rectMode(CENTER);
      fill("red");
     rect(0,0,this.width,this.height);
