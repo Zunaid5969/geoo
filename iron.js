@@ -11,17 +11,17 @@ class iron{
        World.add(world,this.body);
     }
     display(){
-     var p=this.body.position;
+     var pos=this.body.position;
     // var ang=this.body.angle;
 
      push();
-     translate(p.x,p.y);
+     translate(pos.x,pos.y);
   //   rotate(angle);
      rectMode(CENTER);
      strokeWeight(3);
     stroke("white");
     fill("red");
-    rect(p.x,p.y,this.width,this.height);
+    rect(pos.x,pos.y,this.width,this.height);
      pop();
     }
 }
