@@ -17,10 +17,10 @@ class iron{
      push();
      translate(p.x,p.y);
   //   rotate(angle);
+     rectMode(CENTER);
      strokeWeight(3);
     stroke("white");
-        rectMode(CENTER);
-     fill("red");
+    fill("red");
     rect(p.x,p.y,this.width,this.height);
      pop();
     }
