@@ -19,8 +19,8 @@ class stone{
     // rotate(angle);
     rectMode(CENTER);
      strokeWeight(3);
-     stroke('white');
-     fill('yellow');
+     stroke("white");
+     fill("yellow");
     rect(p.x,p.y,this.width,this.height);
      pop();
     }
