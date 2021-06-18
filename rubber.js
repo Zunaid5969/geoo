@@ -4,7 +4,7 @@ class rubber{
     restitution:0.3,
 	friction:5,
 	density:1
-};
+}
 
 	
 	// assign options to the rubber ball
@@ -14,7 +14,7 @@ class rubber{
 		this.body=Bodies.circle(this.x, this.y, (this.r-20)/2, options)
 		World.add(world, this.body);
         
-	};
+	}
 	display()
 	{
 			var rubberpos=this.body.position;		
