@@ -12,11 +12,11 @@ class iron{
     }
     display(){
      var p=this.body.position;
-    // var ang=this.body.angle;
+     var ang=this.body.angle;
 
      push();
      translate(p.x,p.y);
-     //rotate(angle);
+     rotate(angle);
      strokeWeight(3);
     stroke("white");
         rectMode(CENTER);
